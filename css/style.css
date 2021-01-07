@@ -5,14 +5,14 @@ body{
 section{
   height: 450px;
 }
-.basic-info{
-  width: 40%;
-  float: left;
+.basic-info p{
+
+  margin-bottom: 200x;
 
 }
 .basic-info{
   width: 40%;
-  
+  float: left;
   padding-left: 150px;
 
 }
@@ -31,4 +31,106 @@ margin: 0 auto;
   background-image: url("../images/header-bg.png");
   background-repeat: no-repeat;
  background-position: 100%;
+}
+.button{
+  text-transform: uppercase;
+  text-decoration: none;
+  color:white;
+  background-color:#ec4d85;
+  padding:7px 15px;
+  margin-top: 15px;
+}
+.biblio-img{
+  float: left;
+  width: 50%;
+  height: 350px;
+}
+.biblio-info{
+  width: 50%;
+  float: right;
+}
+.biblio-info h1{
+  text-transform: uppercase;
+  font-weight: 600px;
+  margin-top: 120px;
+
+}
+.biblio-info a{
+  text-transform: uppercase;
+  background-color: #ec4e86;
+  color: white;
+  padding: 5px 15px;
+  text-decoration: none;
+  
+  
+
+}
+ a:hover{
+ 
+  background-color: rgb(255, 71, 126);
+  padding: 8px 20px;
+  
+
+}
+
+.biblio-info p{
+  margin-bottom: 20px;
+}
+.biblio-img img{
+height: 100%;
+
+margin-top: 50px;
+margin-left: 350px;
+}
+
+.biblio-graphy{
+  background-image: url("../images/biography-bg.png");
+  background-repeat: no-repeat;
+  background-position: 100%;
+  
+}
+.latest-work{
+width: 100%;
+background-image: url("../images/latest-work-bg.png");
+background-repeat: no-repeat;
+}
+.latest-work h1{
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+}
+.work1 {
+
+  width: 33.3%;
+ 
+  float: left;
+}
+
+.work2 {
+
+  width: 33.3%;
+  float: left;
+
+}
+.work3 {
+ 
+  width: 33.3%;
+  float: right;
+
+}
+.work1 img{
+  width: 80%;
+  height: 50%;
+  margin-left: 80px;
+ 
+}
+.work2 img{
+  width: 80%;
+  height: 50%;
+ 
+}
+.work3 img{
+  width:80%;
+  height: 50%;
+ margin-right: 80px;
 }
