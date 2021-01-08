@@ -20,6 +20,10 @@ section{
  padding-top: 140px;
  
 }
+.basic-info h1{
+  color: #ec4c76;
+  font-weight: 800;
+}
 .basic-image img{
   height: 375px;
 margin: 0 auto;
@@ -133,4 +137,61 @@ background-repeat: no-repeat;
   width:80%;
   height: 50%;
  margin-right: 80px;
+}
+.conclusion{
+  background-image: url("../images/latest-work-bg.png");
+  background-repeat: no-repeat;
+  background-position: ;
+
+}
+.div1{
+height: 50%;
+}
+.div2{
+  height: 40%;
+  text-align: center;
+  background-color: #ec4c76;
+  width: 50%;
+ margin-left: 320px;
+ border-radius: 10px;
+ color: white;
+ 
+}
+.div2 h3{
+ padding: 40px 120px;
+ padding-bottom: 0px;
+
+}
+.div2 a{
+  color: white;
+  text-decoration: none;
+}
+.div1 h1{
+  text-align: center;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin-bottom: 40px;
+}
+.div1 h4{
+  text-align: center;
+ 
+}
+.div1 h5{
+  text-align: center;
+  color: #717171;
+  
+  
+}
+.div1 p{
+  text-decoration: none;
+  text-align: center;
+  color: #717171;
+
+ 
+
+}
+footer{
+  text-align: center;
+  font-size: 10px;
+  color:#717171 ;
 }
